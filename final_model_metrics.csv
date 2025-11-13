@@ -1,0 +1,2 @@
+architecture,learning_rate,optimizer,activation,test_rmse,test_mse,test_mae,test_r2,epochs_trained,best_epoch
+Medium,0.001,AdamW,ReLU,24.44376574217364,597.4976836582616,3.1507054160177206,0.29770197307762625,109,79

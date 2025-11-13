@@ -1,0 +1,65 @@
+{
+  "numeric_columns": [
+    "fare_amount",
+    "extra",
+    "mta_tax",
+    "tolls_amount"
+  ],
+  "categorical_columns": [
+    "payment_type",
+    "dropoff_borough",
+    "pickup_borough"
+  ],
+  "std_scaler_columns": [
+    "mta_tax",
+    "extra"
+  ],
+  "power_transform_columns": [
+    "fare_amount",
+    "tolls_amount"
+  ],
+  "input_features": [
+    "fare_amount",
+    "extra",
+    "mta_tax",
+    "tolls_amount",
+    "payment_type",
+    "dropoff_borough",
+    "pickup_borough"
+  ],
+  "encoded_feature_count": 20,
+  "encoded_feature_names": [
+    "fare_amount",
+    "extra",
+    "mta_tax",
+    "tolls_amount",
+    "payment_type_2.0",
+    "payment_type_3.0",
+    "payment_type_4.0",
+    "payment_type_5.0",
+    "dropoff_borough_Brooklyn",
+    "dropoff_borough_EWR",
+    "dropoff_borough_Manhattan",
+    "dropoff_borough_Queens",
+    "dropoff_borough_Staten Island",
+    "dropoff_borough_Unknown",
+    "pickup_borough_Brooklyn",
+    "pickup_borough_EWR",
+    "pickup_borough_Manhattan",
+    "pickup_borough_Queens",
+    "pickup_borough_Staten Island",
+    "pickup_borough_Unknown"
+  ],
+  "model_architecture": "Medium",
+  "learning_rate": 0.001,
+  "optimizer": "AdamW",
+  "activation": "ReLU",
+  "uses_pretrained_weights": true,
+  "pretrained_model_path": "/home/zerotwo/mineria/nyc/deployment/best_model.pth",
+  "pretrained_device": "cpu",
+  "test_rmse": 24.44376571036442,
+  "test_mae": 3.150705408224584,
+  "test_r2": 0.2977019749054586,
+  "input_dimension": 20,
+  "fitting_strategy": "pretrained_weights"
+}

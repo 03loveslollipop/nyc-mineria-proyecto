@@ -1,0 +1,7 @@
+{
+  "learning_rate": 0.0012734348619747868,
+  "optimizer_name": "Adam",
+  "activation_name": "ReLU",
+  "architecture_name": "Medium",
+  "best_mse": 3.7785517374674478
+}

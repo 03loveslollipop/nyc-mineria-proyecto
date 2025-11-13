@@ -1,0 +1,23 @@
+name: nyc-taxi
+channels:
+  - rapidsai
+  - conda-forge
+  - nvidia
+
+dependencies:
+  - python=3.13
+  - rapids=25.10
+  - cuda-version>=12.0,<=12.9
+  - pytorch=*=*cuda*
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - numpy
+  - scipy
+  - joblib
+  - pip
+  - pip:
+    - imbalanced-learn

@@ -1,0 +1,8 @@
+{
+  "C": 2.6507393119233,
+  "gamma": "auto",
+  "kernel": "sigmoid",
+  "degree": null,
+  "epsilon": 0.06751180662584272,
+  "best_cv_rmse": 24.98050313096553
+}

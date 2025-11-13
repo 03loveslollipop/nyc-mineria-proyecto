@@ -1,0 +1,2 @@
+architecture,learning_rate,optimizer,activation,test_rmse,test_mse,test_mae,test_r2
+Medium,0.0012734348619747868,Adam,ReLU,24.456955771632796,598.1426856156028,3.152869140723153,0.29694383858708173

@@ -1,0 +1,2 @@
+n_estimators,max_depth,learning_rate,subsample,colsample_bytree,min_child_weight,gamma,reg_alpha,reg_lambda,device,cv_rmse_mean,cv_rmse_std,cv_mae,cv_r2,test_rmse,test_mse,test_mae,test_r2,total_search_time_min,total_configurations
+200,5,0.1,1.0,1.0,3,0.1,0,1,cuda,22.335072957391663,0.7748042586197051,3.1668404955104728,0.3300739416775026,24.681956193279134,609.1989615269503,3.7469503453709474,0.2839483057674269,172.16193718910216,1536
